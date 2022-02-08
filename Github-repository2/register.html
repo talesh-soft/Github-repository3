@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register page</title>
+
+    <link href="Css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/register.css">
+
+</head>
+
+<body>
+    
+    <header>
+
+        <nav class="navbar navbar-expand-lg  navbar-light   shadow" id="menu">
+
+            <div class="container ">
+      
+              <a class="navbar-brand " href="#">
+      
+                   <img src="img/logo.png" id="T-Logo" class="d-inline " alt=" Logo">
+                
+              </a>
+      
+              <div class=" collapse navbar-collapse  navbar-al " id="navbarSupportedContent">
+      
+                <ul class="navbar-nav d-lg-flex mx-auto  my-2   " id="navbarnav">
+      
+                  <!-- Home Link -->
+                  <li class="nav-item py-4" id="home-menu">
+      
+                    <a class="nav-link active dropdown-toggle " id="li-a-home" aria-current="page" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                      HOME
+                   
+                    </a>
+ 
+      
+                  </li>
+      
+                  <!-- Recipes Link -->
+                  <li class="nav-item  py-4 " id="recipes-menu">
+      
+                    <a class="nav-link dropdown-toggle" id="li-a-recipes" href="#" role="button" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside" aria-expanded="false">
+      
+                      Recipes
+      
+                    </a>
+      
+
+      
+                  </li>
+      
+                  <!-- Features Link -->
+                  <li class="nav-item  py-4" id="features-menu">
+      
+                    <a class="nav-link dropdown-toggle" id="li-a-features" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">
+                   
+                      Features
+                   
+                    </a>
+      
+                  </li>
+      
+                  <!-- PAGES Link -->
+                  <li class="nav-itemn py-4" id="pages-menu">
+      
+                    <a class="nav-link  dropdown-toggle " id="li-a-page" aria-current="page" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                      PAGES
+                  
+                    </a>
+      
+                  </li>
+      
+                  <!-- Courses Link -->
+                  <li class="nav-item   py-4" id="courses-menu">
+      
+                    <a class="nav-link dropdown-toggle" id="li-a-courses" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">
+                  
+                      Courses
+                  
+                    </a>
+
+      
+                  </li>
+      
+                  <!-- SHOP Link -->
+                  <li class="nav-item py-4" id="shop-menu">
+      
+                    <a class="nav-link  dropdown-toggle " id="li-a-shop" aria-current="page" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+              
+                      SHOP
+              
+                    </a>
+
+      
+                  </li>
+      
+                  <!-- PURCHASE Link -->
+                  <li class="nav-item  py-4" id="purchase-menu">
+      
+                    <a class="nav-link  " id="li-a-purchase" aria-current="page" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                      PURCHASE
+                  
+                    </a>
+      
+                  </li>
+      
+                  <span class=" search-icon-menu  d-inline " id="search-nav" >
+                    <img src="img/icon-search2.png">
+                  </span>
+                </ul>
+      
+      
+              </div>
+
+              
+            </div>
+      
+        </nav>
+
+    </header>
+
+    
+    <main>
+
+        <div class="container-fluid main-form row  ">
+
+            <div class="col-lg-6 col-md-12 h-100  ">
+
+                <img src="img/login.png" id="login-img" class="img-fluid "  alt="Main photo and about virtual reality">
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 h-100 ">
+
+                <div class="container form-reg ">
+
+                    <form method="post" class="w-100 justify-content-center d-flex ">
+
+                        <fieldset class="shadow">
+                          
+                            <legend class="Titr justify-content-center d-flex" id="h2-form">Register</legend>
+            
+                            <span>*</span>
+                            <label for="firstname"  >
+
+                                Please enter your full name :
+
+                            </label> 
+                            
+                            <br>
+
+                            <input type="text" id="firstname" name="firstname" placeholder=" Ali" >
+      
+                            <br><br>
+                                                         <!-- Last Name-->
+                            <span class="spn">*</span>
+
+                            <label for="lastname">
+
+                                Please enter your last name :
+
+                            </label>
+                            
+                            <br>
+                            
+                            <span class="form-reg">
+
+                                  <input type="text" id="lastname" name="lastname" placeholder=" Hosseini" class="input-req" required>
+
+                                   <span class="validation "> Required</span>
+
+                            </span>
+                            
+                            <br><br>
+
+                                                         <!-- Email-->
+                            <span class="spn">*</span>
+
+                            <label for="email">
+                                
+                                Please enter your valid email :
+                            
+                            </label> <br>
+
+                            <span class="form-reg">
+
+                              <input type="text" id="email" name="email" placeholder=" sdfa@info.com" class="input-req" required>
+
+                              <span class="validation "> Required</span>
+
+                            </span>
+                            
+                            <br><br>
+
+                                                         <!-- Phone Number-->
+                            <span>*</span>
+
+                            <label for="tel">
+                                
+                                Please enter your contact number :
+                            
+                            </label> 
+                            
+                            <br>
+
+                            <input type="tel" id="tel" name="tel" placeholder="09121110000">
+                            
+                            <br><br>
+
+                                                         <!-- Password-->
+                            <span class="spn">*</span>
+
+                            <label for="password">
+                                
+                                Please enter the password :
+                            
+                            </label> 
+                            
+                            <br>
+
+                            <span class="form-reg">
+
+                              <input type="password" id="password" name="password" placeholder="sd23&$hta (8 characters)" class="input-req" required>
+
+                              <span class="validation "> Required</span>
+
+                             </span>
+            
+                            <br><br>
+
+                            <p id="error">
+                                
+                                Please be careful when completing the registration
+                              
+                              <p id="underline"></p>
+                            
+                            </p>
+                            
+
+                            <button type="submit" name="send" class="btn">SUBMIT</button>
+                            <button type="reset" name="delete" class="btn">RESET </button>
+                            
+                        </fieldset>
+            
+            
+                    </form>
+
+                    
+
+
+                </div>
+                
+
+            </div>
+
+        </div>
+  
+    </main>
+
+</body>
+
+</html>

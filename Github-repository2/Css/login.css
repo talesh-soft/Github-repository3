@@ -1,0 +1,235 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #20364b;
+    
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../font/Vazir-Bold.woff);
+  }
+
+
+  a
+{
+  background-color: transparent !important;
+  cursor: pointer !important;
+}
+
+#T-Logo
+{
+  width: 100px;
+  height: 100px;
+}
+
+#menu a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#search-nav img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#search-nav:hover img
+{
+    transform: scale(1.1);
+}
+
+#login-img
+{
+
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+
+.main-form
+{
+    height: 630px;
+}
+
+.main-form form
+{
+    direction: ltr;
+}
+
+#h2-form
+{
+    
+    color: #ffc21b;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    font-size: 40px;
+}
+
+label
+{
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+span
+{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.main-form form input {
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #20364b;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    
+  }
+
+
+  .col-div
+  {
+      height: 750px;
+  }
+
+
+  .form-reg
+  {
+      position: relative;
+      overflow: hidden;
+  }
+
+  .validation
+  {
+      position: absolute;
+      top: 50%;
+      right: 0.5rem;
+      transform: translate(5rem, -50%);
+      opacity: 0;
+      color: #ffc21b;
+      transition: all 0.35s;
+      padding: 10px;
+
+  }
+
+  .input-req:invalid ~ .validation
+  {
+      opacity: 1;
+      transform: translate(0, -50%);
+  }
+
+
+  #firstname
+  {
+      margin-left: 30px;
+  }
+
+  #lastname
+  {
+      margin-left:  20px;
+
+  }
+
+  #tel
+  {
+      margin-left: 30px;
+  }
+
+  #email
+  {
+      margin-left: 20px ;
+  }
+  
+  #password
+  {
+    margin-left: 20px;
+  }
+
+  .spn
+  {
+      color: #ffc21b;
+  }
+  
+  #error
+  {
+      color:#E0E0E0;
+      font-size: 18px;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-top: 40px;
+  }
+
+  #underline
+  {
+      background-color: #ffc21b;
+      width: 350px;
+      height: 3px;
+      position: relative;
+      top: -10px;
+      left: 40px;
+      margin-bottom: 40px;
+  }
+
+
+  .btn {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    background-color: #ffc21b;
+    border: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: myFont;
+    margin-top: 20px;
+    border-radius: 50px;
+    margin-left: 40px;
+    
+  }
+
+  .btn:hover
+  {
+    cursor: pointer;
+    background-color: #2ECC71;
+    color: #fff;
+  }
+  .main-form form ::placeholder {
+    color: #20364b;
+    opacity: 0.5;
+    font-size: 20px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  #forget
+  {
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+
+  #forget:hover
+  {
+      color: #2ECC71;
+  }
